@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>KhingShot</title>
+        <link>https://raw.githubusercontent.com/KhingHunter/khingshot-releases/main/appcast.xml</link>
+        <description>Update feed for KhingShot, the macOS capture app.</description>
+        <language>en</language>
+        <item>
+            <title>0.2.0</title>
+            <pubDate>Tue, 28 Jul 2026 17:19:15 +0000</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingshot-releases/releases/tag/v0.2.0</link>
+            <description><![CDATA[
+<h3>KhingShot 0.2.0</h3>
+<p>The first release that can update itself. Earlier builds had no way to learn that a new version had shipped, so every update meant downloading a DMG by hand.</p>
+<h4>Automatic updates</h4>
+<ul>
+<li>KhingShot now checks for a new version once a day in the background. When one</li>
+</ul>
+<p>is available you get the standard macOS update panel with release notes and <strong>Install Update</strong>, <strong>Skip This Version</strong>, and <strong>Remind Me Later</strong>.</p>
+<ul>
+<li>Updates install and relaunch on their own once you approve them.</li>
+<li>A background check that finds nothing shows no UI at all, and no update prompt</li>
+</ul>
+<p>will interrupt you while a capture or recording is in progress.</p>
+<h4>New controls</h4>
+<ul>
+<li><strong>Check for Updates…</strong> in the menu bar dropdown, next to About and Settings.</li>
+<li><strong>Settings → General → Updates</strong> shows the current version, an</li>
+</ul>
+<p><strong>Automatically check for updates</strong> switch (on by default), a <strong>Check Now</strong> button, and when the last check ran.</p>
+<h4>Under the hood</h4>
+<ul>
+<li>Updates are delivered by <a href="https://sparkle-project.org">Sparkle 2</a>, the</li>
+</ul>
+<p>standard macOS update framework, and are the first third-party dependency in the app.</p>
+<ul>
+<li>Every download is signed twice over: a Developer ID signature notarized by</li>
+</ul>
+<p>Apple, plus an EdDSA signature that KhingShot verifies before it installs anything.</p>
+<ul>
+<li>Version numbers now move with each release, so the updater has something real</li>
+</ul>
+<p>to compare. This build reports <code>0.2.0</code> where every earlier cut reported <code>0.1.0</code>.</p>
+<p>Requires macOS 14.0 or later.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingshot-releases/releases/download/v0.2.0/KhingShot-0.2.0.dmg"
+                       sparkle:edSignature="bTL1yskf1puuTM9I4sLPA2s6H65vwS3dRdCpXvWaIW/8Oi4UrklihA70av1EuykExESncD/zBNeX0EzSFZdRCw=="
+                       length="3123022"
+                       type="application/octet-stream"/>
+        </item>
+    </channel>
+</rss>
