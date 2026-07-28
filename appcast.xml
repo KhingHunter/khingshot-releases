@@ -6,6 +6,30 @@
         <description>Update feed for KhingShot, the macOS capture app.</description>
         <language>en</language>
         <item>
+            <title>0.2.1</title>
+            <pubDate>Tue, 28 Jul 2026 17:23:32 +0000</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingshot-releases/releases/tag/v0.2.1</link>
+            <description><![CDATA[
+<h3>KhingShot 0.2.1</h3>
+<p>A verification cut. Same features as 0.2.0, published so that the update path introduced in that release could be exercised end to end: an installed 0.2.0 finds this version in the feed, installs it, and relaunches on its own.</p>
+<ul>
+<li>Confirms the full chain works on a real machine: appcast fetch, EdDSA</li>
+</ul>
+<p>signature check, download, in-place swap in <code>/Applications</code>, and relaunch, with no Gatekeeper prompt at any point.</p>
+<ul>
+<li>No functional changes to capture, recording, annotation, or the library.</li>
+</ul>
+<p>Requires macOS 14.0 or later.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingshot-releases/releases/download/v0.2.1/KhingShot-0.2.1.dmg"
+                       sparkle:edSignature="rHHKcRcfp2ZTGi842kf/8j2RydyLHDxoHPVayeRgfwgsd+MSrQ2jcUm4mKn4GRlYb3dLHcTAYf2yUJAr8cERAg=="
+                       length="3123037"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>0.2.0</title>
             <pubDate>Tue, 28 Jul 2026 17:19:15 +0000</pubDate>
             <sparkle:version>8</sparkle:version>
