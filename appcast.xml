@@ -6,6 +6,29 @@
         <description>Update feed for KhingShot, the macOS capture app.</description>
         <language>en</language>
         <item>
+            <title>0.3.1</title>
+            <pubDate>Tue, 28 Jul 2026 21:43:16 +0000</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingshot-releases/releases/tag/v0.3.1</link>
+            <description><![CDATA[
+<h3>KhingShot 0.3.1</h3>
+<p>Fixes <strong>Check for Updates…</strong>, which could find a new version and then fail to offer it.</p>
+<ul>
+<li>Choosing <strong>Check for Updates…</strong> from the menu bar or <strong>Check Now</strong> in Settings could leave the update panel unshown, with no message either way, and the item disabled until the app was relaunched. Both now bring up the update panel as soon as a newer version is found.</li>
+<li>When there is nothing to install, the check still answers with a toast rather than a modal, and the menu item always becomes clickable again once the check finishes.</li>
+<li>Automatic background checks were never affected and are unchanged, as is everything in capture, recording, annotation, and the library.</li>
+</ul>
+<p>If <strong>Check for Updates…</strong> is greyed out on 0.3.0, quitting and relaunching KhingShot clears it. Updating to this version stops it happening again.</p>
+<p>Requires macOS 14.0 or later.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingshot-releases/releases/download/v0.3.1/KhingShot-0.3.1.dmg"
+                       sparkle:edSignature="pEtmfoCD/1jZ9aQPIewa9Xykc52XMalqpS3frRFg/KQ5ohkBSAAz5bNz7vXjWHqBnhWZIqKHsWIiAbxVslG2Aw=="
+                       length="3146636"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>0.3.0</title>
             <pubDate>Tue, 28 Jul 2026 20:30:24 +0000</pubDate>
             <sparkle:version>10</sparkle:version>
