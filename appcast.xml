@@ -6,6 +6,35 @@
         <description>Update feed for KhingShot, the macOS capture app.</description>
         <language>en</language>
         <item>
+            <title>0.3.0</title>
+            <pubDate>Tue, 28 Jul 2026 20:30:24 +0000</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingshot-releases/releases/tag/v0.3.0</link>
+            <description><![CDATA[
+<h3>KhingShot 0.3.0</h3>
+<p>Navigating and fixing up a markup now works the way it does in every design tool you already use.</p>
+<h4>Zoom and pan the canvas</h4>
+<ul>
+<li><strong>Hold Command and scroll to zoom.</strong> Zooming happens around the pointer, so the spot you are pointing at stays put instead of sliding off screen. A mouse wheel and a trackpad each get their own feel, and one hard flick can no longer throw you across the whole range.</li>
+<li><strong>Hold Space and drag to pan</strong>, with the open and closed hand cursor. The pan never draws, selects, or nudges an annotation by accident, and Space still types a space while you are editing a text box.</li>
+<li>Zoom runs from 10% to 800%, and the zoom buttons now stop at the same limits.</li>
+<li>Let go of Space, switch apps, or Command-Tab away, and the hand tool releases with it. The canvas cannot get stuck in pan mode.</li>
+</ul>
+<h4>Reshape arrows after you draw them</h4>
+<ul>
+<li>Select an arrow or a line with the <strong>Select</strong> tool and each end gets a grip. Drag one to move that end while the other stays anchored. Aim or length slightly off no longer means deleting it and drawing it again.</li>
+<li>Works on straight pen and highlighter strokes too, the ones made by holding Shift while drawing. Freehand strokes are unchanged.</li>
+</ul>
+<p>Requires macOS 14.0 or later.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingshot-releases/releases/download/v0.3.0/KhingShot-0.3.0.dmg"
+                       sparkle:edSignature="WSqLk5cNIk4wivE0H8gr1kNsgUyuSyoXGBYXbLRZH0t1oh/muVXe4UGU7YwXbNu5AjpYLpjmcbYbY1Z8g+mdCQ=="
+                       length="3143475"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>0.2.1</title>
             <pubDate>Tue, 28 Jul 2026 17:23:32 +0000</pubDate>
             <sparkle:version>9</sparkle:version>
