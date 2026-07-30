@@ -6,6 +6,45 @@
         <description>Update feed for KhingShot, the macOS capture app.</description>
         <language>en</language>
         <item>
+            <title>0.5.0</title>
+            <pubDate>Thu, 30 Jul 2026 20:51:42 +0000</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingshot-releases/releases/tag/v0.5.0</link>
+            <description><![CDATA[
+<h3>KhingShot 0.5.0</h3>
+<p>Three new markup tools that finish out the annotation editor: callouts, a magnifier loupe, and saved style presets.</p>
+<h4>Callout (key <code>Q</code>)</h4>
+<ul>
+<li>A filled speech bubble with a pointer tail. <strong>Click</strong> the thing you want to call out and the bubble auto-places next to it, ready to type — or <strong>drag</strong> from the target to position the bubble yourself.</li>
+<li>Two tail styles: a classic speech-bubble <strong>pointer</strong>, or a tapered <strong>arrow</strong> matching the arrow tool — for everyone who annotates with an arrow followed by a text box, that is now one object.</li>
+<li>The tail gets its own grip when selected, so you can re-aim it any time. Tails always leave the bubble cleanly, at any angle, even through a corner.</li>
+<li>Adjustable <strong>text size</strong>, <strong>tail start width</strong>, and <strong>tail end width</strong> (0 = sharp point; on arrows it is the arrowhead size), plus the bubble color — all in the tool options popover. The bubble carries a soft drop shadow and works over light and dark content.</li>
+<li>It edits like a text box: click to re-edit, drag to move, resize to re-wrap.</li>
+</ul>
+<h4>Magnifier (key <code>M</code>)</h4>
+<ul>
+<li>Drag out an elliptical loupe and the pixels under it render <strong>zoomed 1.5–4×</strong> (slider in the options popover), ringed in the tool color and stroke weight.</li>
+<li>Moves and resizes like an ellipse; hold Shift while drawing for a perfect circle. Stays bright inside a spotlighted screenshot.</li>
+</ul>
+<h4>Style presets</h4>
+<ul>
+<li>The tool options popover now ends with a <strong>Presets</strong> row: <strong>＋</strong> saves the current color, stroke weight, fill, opacity, dash, and corner radius as a chip. Click a chip to apply it to the active tool and selection in one undo step; right-click to delete.</li>
+<li>Presets are shared across tools (each takes only the fields it supports), hold up to 8, and persist across launches.</li>
+</ul>
+<h4>Also</h4>
+<ul>
+<li>Tool tooltips no longer cover a toolbar flyout menu opened by click-and-hold.</li>
+</ul>
+<p>Requires macOS 14.0 or later.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingshot-releases/releases/download/v0.5.0/KhingShot-0.5.0.dmg"
+                       sparkle:edSignature="rhPtrbN/3a3RfMVE0wMl99HI0Uk1lNrCwpRMgtHqpCz+q4ENcdO35d+AMwaTPVAH5RVX1atu9JExm6GZnJrSAw=="
+                       length="3396483"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>0.4.0</title>
             <pubDate>Thu, 30 Jul 2026 18:08:57 +0000</pubDate>
             <sparkle:version>12</sparkle:version>
