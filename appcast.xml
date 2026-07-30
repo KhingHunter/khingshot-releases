@@ -6,6 +6,26 @@
         <description>Update feed for KhingShot, the macOS capture app.</description>
         <language>en</language>
         <item>
+            <title>0.5.2</title>
+            <pubDate>Thu, 30 Jul 2026 21:41:45 +0000</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>0.5.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingshot-releases/releases/tag/v0.5.2</link>
+            <description><![CDATA[
+<h3>KhingShot 0.5.2</h3>
+<p>Finishes off the callout tail bug for good.</p>
+<ul>
+<li><strong>A notch could be punched out of the callout bubble where the tail overlapped it.</strong> This was not the tail's shape but how it was painted: the bubble and tail were filled as one combined path, and when their two outlines wound in opposite directions the overlapping area cancelled to unpainted — a bite out of the bubble that moved around with the tail angle. They are now painted as separate fills inside one shadowed layer, which can never cancel and still casts a single seamless shadow. Applies to both tail styles, in the editor and in the exported image.</li>
+</ul>
+<p>Requires macOS 14.0 or later.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingshot-releases/releases/download/v0.5.2/KhingShot-0.5.2.dmg"
+                       sparkle:edSignature="UVk7/kO6OM4bfyTdHpqTpVulpJgNiyrGUugpccSO+/sOQy0j/L2Qwhhtjf8hr+/ACCY5nE+oyLQOeNirZxsZDA=="
+                       length="3397114"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>0.5.1</title>
             <pubDate>Thu, 30 Jul 2026 21:22:24 +0000</pubDate>
             <sparkle:version>14</sparkle:version>
