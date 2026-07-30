@@ -6,6 +6,27 @@
         <description>Update feed for KhingShot, the macOS capture app.</description>
         <language>en</language>
         <item>
+            <title>0.5.1</title>
+            <pubDate>Thu, 30 Jul 2026 21:22:24 +0000</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>0.5.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingshot-releases/releases/tag/v0.5.1</link>
+            <description><![CDATA[
+<h3>KhingShot 0.5.1</h3>
+<p>Two fixes for issues found in 0.5.0, both in the annotation editor.</p>
+<ul>
+<li><strong>Edits could be lost if the floating capture card was closed while the editor was open.</strong> Clicking Annotate on a floating capture and then dismissing the card mid-edit made Done silently discard your markup — no save, no error. The edit now always lands in the saved capture file, whether or not the card is still on screen.</li>
+<li><strong>Callout tails no longer cut across the bubble.</strong> Both tail styles — pointer and arrow — now attach at the point on the bubble's rounded outline closest to the target, so a tail leaving near a corner exits cleanly through the corner curve instead of slicing across it. This was most visible with long diagonal tails.</li>
+</ul>
+<p>Requires macOS 14.0 or later.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingshot-releases/releases/download/v0.5.1/KhingShot-0.5.1.dmg"
+                       sparkle:edSignature="UsZSt91Nx8xxd4CIOjodzSQEMRfG9hrvmuEcHBig3u/OVlcDbaugANBT2eJqpS7YIgqhRyo10fAD9zHxRv1cDg=="
+                       length="3396143"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>0.5.0</title>
             <pubDate>Thu, 30 Jul 2026 20:51:42 +0000</pubDate>
             <sparkle:version>13</sparkle:version>
