@@ -6,6 +6,51 @@
         <description>Update feed for KhingShot, the macOS capture app.</description>
         <language>en</language>
         <item>
+            <title>0.4.0</title>
+            <pubDate>Thu, 30 Jul 2026 18:08:57 +0000</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingshot-releases/releases/tag/v0.4.0</link>
+            <description><![CDATA[
+<h3>KhingShot 0.4.0</h3>
+<p>A major markup upgrade: redaction that finds sensitive text for you, a spotlight tool, richer shape styling, and a rounder set of editing basics.</p>
+<h4>Redact (formerly Pixelate)</h4>
+<ul>
+<li>The pixelate tool is now <strong>Redact</strong>, with three styles: pixelate, <strong>blur</strong>, or a solid black <strong>block</strong>. Pick the style in the tool's options popover; it also restyles a selected region.</li>
+<li><strong>Redact Detected Info</strong> scans the capture and covers every email address, phone number, card number, IP address, and API key or token it finds (Stripe, GitHub, Slack, AWS, Google keys, JWTs) in one click. The whole sweep is a single undo step.</li>
+</ul>
+<h4>Spotlight</h4>
+<ul>
+<li>New <strong>Spotlight</strong> tool (key <code>S</code>): drag out a region and everything outside it dims, drawing the eye exactly where you want it. Drag out more regions to keep several areas lit, and set the dim strength in the options popover.</li>
+</ul>
+<h4>Shape styling</h4>
+<ul>
+<li>Rectangles and ellipses take an interior <strong>fill</strong> (none to solid, in the stroke color), a <strong>dashed stroke</strong>, and an overall <strong>opacity</strong>; rectangles also get a <strong>corner radius</strong>. Lines can be dashed too.</li>
+<li>Finishing a shape now selects it, so the options popover restyles the mark you just made live — no re-selecting first.</li>
+<li>The highlighter now blends like a real marker, keeping text legible on light and dark content alike.</li>
+</ul>
+<h4>Editing basics</h4>
+<ul>
+<li><strong>Arrow keys nudge</strong> the selection 1px, or 10px with Shift.</li>
+<li><strong>⌘D duplicates</strong> the selection; <strong>⌥-drag</strong> clones as you drag.</li>
+<li><strong>⌘] / ⌘[</strong> bring to front / send to back.</li>
+<li>While drawing, <strong>Shift</strong> constrains rectangles and ellipses to squares/circles and snaps arrows and lines to 45°; <strong>⌥</strong> draws from the center.</li>
+<li>Selection is now geometry-precise: clicking through an arrow's empty bounding box or a hollow rectangle's middle picks what is actually underneath.</li>
+</ul>
+<h4>Fixes</h4>
+<ul>
+<li>Saving edits from <strong>All Captures</strong> now refreshes that capture's thumbnail immediately.</li>
+<li>Slider knobs in the editor popovers no longer start invisible.</li>
+</ul>
+<p>Requires macOS 14.0 or later.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingshot-releases/releases/download/v0.4.0/KhingShot-0.4.0.dmg"
+                       sparkle:edSignature="dW4wdHXwnC1alhhlhAMBAv9fYlNb+rLp5iBA3TXfVTiSS0yXi4FLqMzT4ELCKJwxDwWo4FV9Lk+UWR76WHBlDw=="
+                       length="3288870"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>0.3.1</title>
             <pubDate>Tue, 28 Jul 2026 21:43:16 +0000</pubDate>
             <sparkle:version>11</sparkle:version>
