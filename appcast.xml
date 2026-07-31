@@ -6,6 +6,40 @@
         <description>Update feed for KhingShot, the macOS capture app.</description>
         <language>en</language>
         <item>
+            <title>0.5.3</title>
+            <pubDate>Fri, 31 Jul 2026 22:29:57 +0000</pubDate>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>0.5.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingshot-releases/releases/tag/v0.5.3</link>
+            <description><![CDATA[
+<h3>KhingShot 0.5.3</h3>
+<p>Drag captures straight out of All Captures, a shortcut to open it, and a right-click menu for markup.</p>
+<h4>All Captures</h4>
+<ul>
+<li><strong>Drag thumbnails out of the sidebar</strong> into Slack, Messages, Mail, Finder, or anywhere else that takes a file — the same gesture the floating capture card already had. The real file is dragged, so nothing is re-encoded and the drag image appears the moment you move.</li>
+<li><strong>Select more than one capture.</strong> ⌘-click adds and removes, ⇧-click selects a range, and dragging any of them carries the whole selection. <strong>Show in Finder</strong> and <strong>Move to Trash</strong> act on everything selected at once.</li>
+<li><strong>⇧⌘L opens All Captures</strong> from anywhere, and closes it again if it is already up.</li>
+</ul>
+<h4>Markup</h4>
+<ul>
+<li><strong>Right-click an annotation</strong> for Cut, Copy, Paste, Duplicate, Delete, the four stacking commands, Save Style as Preset, and Edit Text on text boxes and callouts. Right-click empty canvas for Select All, Paste where you clicked, and a Backdrop submenu.</li>
+<li><strong>Copy and paste annotations themselves</strong> with ⌘C / ⌘X / ⌘V, including between two editor windows, carrying every style attribute across. ⌘A selects all.</li>
+<li><strong>⌥⌘] and ⌥⌘[</strong> move a selection one layer at a time, alongside the existing bring-to-front and send-to-back.</li>
+</ul>
+<h4>Shortcuts</h4>
+<ul>
+<li><strong>Settings now has a Shortcuts tab</strong> listing every keyboard shortcut, each one click-to-record, with a Reset to Defaults. A combo already used by another KhingShot action is refused with a message naming the owner instead of silently failing.</li>
+<li><strong>Recorded shortcuts show the right key.</strong> Recording ⇧⌘4 used to display as ⇧⌘$, and that wrong label reached the menu bar. Existing bindings correct themselves on launch without re-recording.</li>
+</ul>
+<p>Requires macOS 14.0 or later.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingshot-releases/releases/download/v0.5.3/KhingShot-0.5.3.dmg"
+                       sparkle:edSignature="/Gm9SvY7Dti71/E5W5I6S42Vq/Ao+w2povVOHq+MbTj5ZLk5F2w4FkVgCCMB0q5pVNEGguFS8rM5VAnliqEIBg=="
+                       length="3504947"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>0.5.2</title>
             <pubDate>Thu, 30 Jul 2026 21:41:45 +0000</pubDate>
             <sparkle:version>15</sparkle:version>
