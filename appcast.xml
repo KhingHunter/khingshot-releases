@@ -6,6 +6,36 @@
         <description>Update feed for KhingShot, the macOS capture app.</description>
         <language>en</language>
         <item>
+            <title>0.7.0</title>
+            <pubDate>Mon, 03 Aug 2026 21:16:47 +0000</pubDate>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingshot-releases/releases/tag/v0.7.0</link>
+            <description><![CDATA[
+<h3>KhingShot 0.7.0</h3>
+<p>Markup you can come back to. Reopen an annotated capture and every arrow, label, and callout is still an object you can move, restyle, or delete.</p>
+<h4>Editable markup</h4>
+<ul>
+<li><strong>Annotating no longer flattens the work away.</strong> Open a capture you marked up earlier and the arrows, text boxes, callouts, step numbers, spotlights, magnifiers, and pasted images are all still there as objects. Select one, drag it somewhere better, change its colour, delete it. Fixing one arrow no longer means redoing the whole thing.</li>
+<li><strong>Crop and backdrop come back as settings, not as pixels.</strong> A crop can be widened or removed outright, and the gradient backdrop can be swapped or switched off, long after you saved.</li>
+<li>Captures that reopen this way say so with a <strong>Markup restored</strong> message, and carry a small <strong>pencil badge</strong> on their thumbnail in All Captures, so you can tell at a glance which ones can be revised.</li>
+<li><strong>The image file itself is unchanged.</strong> It stays the flat PNG it always was, so anything you drag into Slack or attach to a ticket is exactly what it looks like. What keeps the markup editable is a hidden file stored beside it, which never travels with the screenshot you send.</li>
+</ul>
+<h4>Two things worth knowing</h4>
+<ul>
+<li><strong>Redactions stay permanent.</strong> They are burned in rather than kept editable, because keeping one editable would mean keeping a clean copy of whatever it hides sitting on your disk. Everything else on the same capture stays fully editable.</li>
+<li><strong>Annotated captures take about twice the space</strong>, since the version before markup is kept alongside the finished one. Turn it off in <strong>Settings → Library → Markup</strong> if you would rather have the space; existing markup is cleared as you re-save each capture.</li>
+</ul>
+<p>Captures annotated in earlier versions open flat, as they always did. Anything you mark up from this version on comes back editable.</p>
+<p>Requires macOS 14.0 or later.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingshot-releases/releases/download/v0.7.0/KhingShot-0.7.0.dmg"
+                       sparkle:edSignature="JYjNwE9n/U2HDVOjTiip2xn975i5yqrRR24oMSIazfNBce2aotFs6crSAm/MqQCqKddBCnHta+YWlp9OJXKQAA=="
+                       length="3660423"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>0.6.0</title>
             <pubDate>Mon, 03 Aug 2026 19:23:47 +0000</pubDate>
             <sparkle:version>17</sparkle:version>
