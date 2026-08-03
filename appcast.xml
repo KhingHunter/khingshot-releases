@@ -6,6 +6,40 @@
         <description>Update feed for KhingShot, the macOS capture app.</description>
         <language>en</language>
         <item>
+            <title>0.6.0</title>
+            <pubDate>Mon, 03 Aug 2026 19:23:47 +0000</pubDate>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingshot-releases/releases/tag/v0.6.0</link>
+            <description><![CDATA[
+<h3>KhingShot 0.6.0</h3>
+<p>Paste images into your markup, confirm a crop without leaving the canvas, and a fix for effects that exported upside down.</p>
+<h4>Paste images into markup</h4>
+<ul>
+<li><strong>⌘V now pastes an image copied from anywhere</strong> — another screenshot, a browser, Finder, Preview — straight onto the canvas. Right-click and choose Paste to drop it exactly where you clicked.</li>
+<li>A pasted image behaves like every other annotation: move it, resize it, nudge it, duplicate it, re-layer it, delete it, and undo it. Hold <strong>Shift</strong> while dragging a corner to keep its proportions.</li>
+<li>Images keep their full resolution and are scaled down to fit the capture, never up, so pasting something large onto a small screenshot still leaves you something you can work with. Paste repeatedly and the copies cascade instead of stacking.</li>
+<li>Copying markup between two editor windows still works exactly as before. An image on the clipboard takes priority; when there isn't one, ⌘V falls back to your copied annotations.</li>
+</ul>
+<h4>Crop</h4>
+<ul>
+<li><strong>Apply (⏎) and Cancel (esc) buttons now float next to the crop frame itself</strong>, so committing a crop no longer means going back up to the toolbar. They follow the frame as you drag, resize, zoom, and scroll.</li>
+<li><strong>Double-click inside the frame to apply it</strong>, the same way Preview and Photoshop behave.</li>
+<li><strong>Dropping a crop you drew now tells you.</strong> Switching tools, or hitting Done, Copy, Save, Ask Claude, or Copy Text with an uncommitted frame, shows a toast instead of silently discarding it. Frames that would not change anything stay quiet.</li>
+</ul>
+<h4>Fixes</h4>
+<ul>
+<li><strong>The magnifier and the pixelate and blur redactions exported upside down.</strong> Everything looked right in the editor, but in the saved, copied, or exported file the loupe magnified the wrong part of the image, and redactions patched the region with the effect taken from a mirrored position. Redacted areas stayed covered the whole time, so nothing was ever exposed, but the patch showed the wrong part of the capture. Re-export any capture where you used those tools.</li>
+</ul>
+<p>Requires macOS 14.0 or later.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingshot-releases/releases/download/v0.6.0/KhingShot-0.6.0.dmg"
+                       sparkle:edSignature="69svTC+fdIF9OR63wVG4ZShyNHfzmCiauaoUmYmrwBNBTovMbdEyzjDjusHH3Mc4Rngly4k6HTO/E2rUM391DQ=="
+                       length="3554920"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>0.5.3</title>
             <pubDate>Fri, 31 Jul 2026 22:29:57 +0000</pubDate>
             <sparkle:version>16</sparkle:version>
