@@ -6,6 +6,30 @@
         <description>Update feed for KhingShot, the macOS capture app.</description>
         <language>en</language>
         <item>
+            <title>0.7.1</title>
+            <pubDate>Mon, 03 Aug 2026 22:35:21 +0000</pubDate>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingshot-releases/releases/tag/v0.7.1</link>
+            <description><![CDATA[
+<h3>KhingShot 0.7.1</h3>
+<p>The update panel now wears KhingSuite colours.</p>
+<h4>A better update panel</h4>
+<ul>
+<li><strong>This screen, redrawn.</strong> The panel that offers you an update is now the same frosted Khing Black glass KhingPaste uses, set in Inter, with the release notes in a proper reading well instead of a system text box.</li>
+<li><strong>Clearer buttons.</strong> Install update, Remind me later, and Skip this version, with the one you probably want carrying the crown.</li>
+<li><strong>Less noise on a manual check.</strong> Choosing Check for Updates no longer flashes a system progress window at you. The menu item greys out while the check runs, and you get a quiet confirmation when you are already up to date.</li>
+</ul>
+<p>Note that you are reading this in the old panel. The new one appears the next time KhingShot has an update to offer you, since the panel doing the offering always belongs to the version you are running.</p>
+<p>Requires macOS 14.0 or later.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingshot-releases/releases/download/v0.7.1/KhingShot-0.7.1.dmg"
+                       sparkle:edSignature="5PTtu9qGJaUYcOHsPa2N+CN8GjpFEgD5AII3gP1t3/6OGIZa4MOTVZGkOgqno/bmYXjsmD+ilam1OvnGr1CuDg=="
+                       length="4724569"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>0.7.0</title>
             <pubDate>Mon, 03 Aug 2026 21:16:47 +0000</pubDate>
             <sparkle:version>18</sparkle:version>
