@@ -6,6 +6,37 @@
         <description>Update feed for KhingShot, the macOS capture app.</description>
         <language>en</language>
         <item>
+            <title>0.8.0</title>
+            <pubDate>Tue, 04 Aug 2026 18:54:21 +0000</pubDate>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingshot-releases/releases/tag/v0.8.0</link>
+            <description><![CDATA[
+<h3>KhingShot 0.8.0</h3>
+<p>Choose how your captures are saved, and a fix worth knowing about if you use the magnifier.</p>
+<h4>A magnifier could undo a redaction</h4>
+<p>A loupe placed over a blurred, pixelated, or blacked-out region was magnifying the pixels underneath it, so the thing you had covered up went into the saved file larger and sharper than before you covered it. The canvas showed the same thing, so nothing warned you.</p>
+<p>A loupe now magnifies the redaction. If you have shared a screenshot with a magnifier sitting on top of a redaction, it is worth a second look.</p>
+<h4>Image export</h4>
+<p>Captures were always PNG at full Retina resolution: exact, but a fullscreen grab off a big display is four times the pixels the screen showed and a file measured in megabytes, which is more than most tickets and chat threads want.</p>
+<p><strong>Settings → Capture → Image Export</strong> now has three controls:</p>
+<ul>
+<li><strong>Format.</strong> PNG (lossless), JPEG, or HEIC.</li>
+<li><strong>Quality.</strong> 60% to 100%, for JPEG and HEIC.</li>
+<li><strong>Size.</strong> Full resolution, half size, or fit within 1920 or 1280 pixels. Nothing is ever enlarged, so a capture already smaller than the limit passes through untouched.</li>
+</ul>
+<p>These apply to every new capture, including the file created when you drag one straight out into Slack or Finder.</p>
+<p>Three things deliberately ignore them: <strong>copied images</strong> stay lossless PNG, since that is what other apps expect to find on the clipboard (the size setting still applies, so a paste matches a save); <strong>re-editing a saved capture</strong> keeps the format and resolution it already has, so repeated edits never shrink the same screenshot step by step; and <strong>stored markup</strong> stays full resolution, because its job is to bring your capture back exactly.</p>
+<p>JPEG cannot store transparency, so window captures saved as JPEG are filled in white behind their rounded corners and shadow.</p>
+<p>Requires macOS 14.0 or later.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingshot-releases/releases/download/v0.8.0/KhingShot-0.8.0.dmg"
+                       sparkle:edSignature="dqJKN2UdLkBWFztPPvtNXAdpWOXANvmT7O9QVnT0rjQMB2+eEmNV5l1Bxs7FrY6NgXFncfpGI1YK+03mCgl5AQ=="
+                       length="4760244"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>0.7.1</title>
             <pubDate>Mon, 03 Aug 2026 22:35:21 +0000</pubDate>
             <sparkle:version>19</sparkle:version>
