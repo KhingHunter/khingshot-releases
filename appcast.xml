@@ -6,6 +6,30 @@
         <description>Update feed for KhingShot, the macOS capture app.</description>
         <language>en</language>
         <item>
+            <title>0.9.0</title>
+            <pubDate>Tue, 04 Aug 2026 19:51:56 +0000</pubDate>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingshot-releases/releases/tag/v0.9.0</link>
+            <description><![CDATA[
+<h3>KhingShot 0.9.0</h3>
+<p>KhingShot now looks like the rest of KhingSuite, everywhere, and the markup canvas zooms the way you expect it to.</p>
+<h4>Pinch to zoom</h4>
+<p>The markup canvas takes a <strong>trackpad pinch</strong>, zooming about your fingers rather than the middle of the window. A <strong>two-finger double-tap</strong> toggles between Fit and 100%.</p>
+<p>Your arrows, text, and callouts are redrawn at every zoom level rather than being magnified as pixels, so they stay sharp all the way to 800%. ⌘-scroll and hold-Space-to-pan work exactly as before.</p>
+<h4>KhingSuite dress, everywhere</h4>
+<p>Version 0.7.1 put the update panel in KhingSuite colours. Every other window now matches it: <strong>Settings</strong>, <strong>About</strong>, the <strong>Setup Guide</strong>, and <strong>All Captures</strong>. Frosted glass that picks up what is behind the window, Khing Black surfaces, Inter throughout, and the yellow saved for the one thing each screen is actually asking you to do.</p>
+<p>Settings keeps all six tabs and remembers which one you were on. On macOS 26 the panels use Apple's Liquid Glass.</p>
+<p>Two things stay solid on purpose. <strong>Notification pills</strong> float over whatever app you are in rather than over a KhingShot window, so there is nothing behind them to frost. And the <strong>markup canvas</strong> keeps a plain backdrop, because picking a colour through a blur of your desktop is not something anyone should have to do.</p>
+<p>Requires macOS 14.0 or later.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingshot-releases/releases/download/v0.9.0/KhingShot-0.9.0.dmg"
+                       sparkle:edSignature="qfUbdAOxsmvHp1QzBfB6nHZLMxMs0OtaG42IFI8DkMCaiCi8Y/Awj6flL7XVGX/4jgCDYND2fXkIgZJnKZl3Cg=="
+                       length="4843460"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>0.8.0</title>
             <pubDate>Tue, 04 Aug 2026 18:54:21 +0000</pubDate>
             <sparkle:version>20</sparkle:version>
