@@ -6,6 +6,38 @@
         <description>Update feed for KhingShot, the macOS capture app.</description>
         <language>en</language>
         <item>
+            <title>0.10.0</title>
+            <pubDate>Wed, 05 Aug 2026 21:22:00 +0000</pubDate>
+            <sparkle:version>22</sparkle:version>
+            <sparkle:shortVersionString>0.10.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingshot-releases/releases/tag/v0.10.0</link>
+            <description><![CDATA[
+<h2>KhingShot 0.10.0</h2>
+<p>KhingShot can now capture things taller than your screen.</p>
+<h4>Scrolling capture</h4>
+<p>Press <strong>⇧⌘7</strong> (or pick <strong>Scrolling Capture</strong> from the menu bar), click a window or drag out a region, and KhingShot scrolls it for you — grabbing frames as it goes and stitching them into one tall, seamless image. A long web page, a chat thread, a document: one capture, top to bottom.</p>
+<p>It is built to survive the pages that usually break this kind of tool:</p>
+<ul>
+<li><strong>Sticky navs and toolbars</strong> appear once, not once per screenful — including the floating pill kind that hovers over the content.</li>
+<li><strong>Fixed backgrounds</strong> (the parallax glow every marketing page has) no longer confuse the stitcher; it aligns on what actually moves.</li>
+<li><strong>Static sidebars</strong> are trimmed out instead of repeating down the edge, and scrollbar thumbs don't leave fragments.</li>
+<li>Apps where only an inner pane scrolls stitch that pane.</li>
+</ul>
+<p>A small capsule at the bottom of the screen shows live progress; the ✓ stops early and keeps what's captured, ✕ or <strong>Esc</strong> cancels cleanly. Capture stops by itself at the end of the content, the page scrolls back to where you left it, and the result flows into markup, the library, and OCR search like any other shot. The stitched image stays sharp and zoomable in the editor even past 20,000 pixels tall.</p>
+<p>Scrolling capture drives the target with synthetic scroll events, which needs the <strong>Accessibility</strong> permission — KhingShot asks the first time, and the Setup Guide now covers it.</p>
+<h4>Name your files your way</h4>
+<p>Screenshots and recordings each get a <strong>filename template</strong> in Settings. Compose names from tokens like <code>%date</code>, <code>%time</code>, <code>%app</code>, and <code>%counter</code> — so captures can land as <code>2026-08-05 Safari 003</code> instead of the stock name, and sort however your workflow needs.</p>
+<h4>Callout text sizing that sticks</h4>
+<p>Setting a callout's text size now persists the way you expect: it is remembered relative to the capture, so new callouts come in at the size you last chose instead of resetting.</p>
+<p>Requires macOS 14.0 or later.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingshot-releases/releases/download/v0.10.0/KhingShot-0.10.0.dmg"
+                       sparkle:edSignature="wGwL6Q89rYm3MoFwEgzrTIY7Q4FqOpzM9reecUvm8EDXsbodfndmwM3YiORbqh6WnRUFXTeekuf/iDiiliZtCg=="
+                       length="4997347"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>0.9.0</title>
             <pubDate>Tue, 04 Aug 2026 19:51:56 +0000</pubDate>
             <sparkle:version>21</sparkle:version>
