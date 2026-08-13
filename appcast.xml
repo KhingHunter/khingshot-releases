@@ -6,6 +6,38 @@
         <description>Update feed for KhingShot, the macOS capture app.</description>
         <language>en</language>
         <item>
+            <title>0.11.0</title>
+            <pubDate>Thu, 13 Aug 2026 18:09:14 +0000</pubDate>
+            <sparkle:version>23</sparkle:version>
+            <sparkle:shortVersionString>0.11.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingshot-releases/releases/tag/v0.11.0</link>
+            <description><![CDATA[
+<h2>KhingShot 0.11.0</h2>
+<p>This release polishes recording and moves the markup editor onto the same design as the rest of the app.</p>
+<h4>Recording, polished</h4>
+<ul>
+<li><strong>Live audio meter.</strong> The recording capsule now shows a thin level bar for each enabled audio source (mic above system audio), so you can see that the mic is actually picking you up while you record.</li>
+<li><strong>Keystroke badges.</strong> Turn on <strong>Show keyboard shortcuts</strong> in Settings and shortcut presses like <code>⌘C</code> and <code>⇧⌘4</code> appear as small pills in the recording itself. Only modifier combos are shown (plain typing never appears in the video), and macOS keeps everything hidden while a password field is focused.</li>
+<li><strong>Timelapse export.</strong> The trim editor gains <strong>Export Timelapse</strong> next to Export GIF: pick a speed multiplier (up to 60x, fractional values welcome) and get a sped-up cut of the selected range, with a live output-length hint before you commit.</li>
+</ul>
+<h4>The markup editor joins the suite</h4>
+<p>The editor's chrome is rebuilt on the same glass as every other KhingShot window, in both light and dark: it is the one window that follows your system theme, because it is where the work happens. The toolbar is also regrouped by what a tool does to the image. Redact, spotlight, and magnifier now share one slot, since all three change how the pixels underneath read, and crop sits beside Background, since both change the frame rather than draw on it. Nine slots become seven, and every single-key shortcut still jumps straight to its tool.</p>
+<h4>Text and callouts behave</h4>
+<ul>
+<li>Text boxes auto-fit their height to the wrapped text, and <strong>Shift-Return</strong> inserts a line break.</li>
+<li>Canvas text is committed when its field loses focus instead of being lost.</li>
+<li>Callout text size once again restores to the size you last chose.</li>
+<li>Editor keyboard shortcuts now work when the editor is open inside All Captures.</li>
+</ul>
+<p>Requires macOS 14.0 or later.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingshot-releases/releases/download/v0.11.0/KhingShot-0.11.0.dmg"
+                       sparkle:edSignature="/20gm9Y7gn2j9bB7JEzB87TQNF6CyMtXrVRsDXeYO8C/zgyGn77fta00d+UWbhrTltKqYQWR1HsupYa2nlxJAA=="
+                       length="5185970"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>0.10.0</title>
             <pubDate>Wed, 05 Aug 2026 21:22:00 +0000</pubDate>
             <sparkle:version>22</sparkle:version>
