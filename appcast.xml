@@ -6,6 +6,28 @@
         <description>Update feed for KhingShot, the macOS capture app.</description>
         <language>en</language>
         <item>
+            <title>0.11.1</title>
+            <pubDate>Thu, 13 Aug 2026 19:24:13 +0000</pubDate>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>0.11.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingshot-releases/releases/tag/v0.11.1</link>
+            <description><![CDATA[
+<h2>KhingShot 0.11.1</h2>
+<p>A stability fix for the markup editor. If callouts or text boxes have been misbehaving for you, this release is the one.</p>
+<h4>Callouts and text boxes no longer crash the editor</h4>
+<ul>
+<li>Doing anything while a callout or text box was being edited — switching tools, undoing, deleting, or just clicking away from an empty box — could crash the whole app. Fixed at the root: the text field could keep pointing at a slot in the annotation list that had moved or disappeared.</li>
+<li><strong>Shift-Return</strong> in a callout no longer selects everything you have typed (and then eats it on the next keystroke). The line break is now inserted the way the text system expects, and the caret stays exactly where you left it.</li>
+</ul>
+<p>Requires macOS 14.0 or later.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingshot-releases/releases/download/v0.11.1/KhingShot-0.11.1.dmg"
+                       sparkle:edSignature="a0O1oesHQ4Lj+B4mMH7VN0R+igsNJacHIpc9QrYKRnMk6hGHgIy0WSrFbJ/Tdpwkhy0aSf3nGs2MhVI2jCQnCg=="
+                       length="5193128"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>0.11.0</title>
             <pubDate>Thu, 13 Aug 2026 18:09:14 +0000</pubDate>
             <sparkle:version>23</sparkle:version>
