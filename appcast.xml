@@ -6,6 +6,29 @@
         <description>Update feed for KhingShot, the macOS capture app.</description>
         <language>en</language>
         <item>
+            <title>0.11.2</title>
+            <pubDate>Fri, 14 Aug 2026 17:17:08 +0000</pubDate>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>0.11.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingshot-releases/releases/tag/v0.11.2</link>
+            <description><![CDATA[
+<h2>KhingShot 0.11.2</h2>
+<p>One fix, but a good one: your keyboard shortcuts now work from the moment KhingShot starts.</p>
+<h4>Shortcuts no longer need a first visit to the menu</h4>
+<ul>
+<li>On a fresh launch, the global capture shortcuts (Capture Area, Capture Window, and the rest) did nothing until you opened the menu bar dropdown at least once. They are now registered the instant the app starts, so a capture is always one keypress away, even right after login.</li>
+<li>The same fix means everything else that used to wait for that first menu visit now happens at launch too: old captures are cleaned up on schedule from the start, and the first capture is quicker off the mark.</li>
+<li>If you are launching KhingShot for the very first time, the setup guide now greets you on its own instead of hiding until you find the menu bar icon.</li>
+</ul>
+<p>Requires macOS 14.0 or later.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingshot-releases/releases/download/v0.11.2/KhingShot-0.11.2.dmg"
+                       sparkle:edSignature="IPVZiVSUZ3EJLAvErgEux9H43usUIoKsAi4mhrMun/fdMCxH1e6BBPCh8FUVy3xFworh0Dy2uFtVQF3KxKhtCg=="
+                       length="5195475"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>0.11.1</title>
             <pubDate>Thu, 13 Aug 2026 19:24:13 +0000</pubDate>
             <sparkle:version>24</sparkle:version>
