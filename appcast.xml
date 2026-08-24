@@ -6,6 +6,42 @@
         <description>Update feed for KhingShot, the macOS capture app.</description>
         <language>en</language>
         <item>
+            <title>0.12.0</title>
+            <pubDate>Mon, 24 Aug 2026 22:01:45 +0000</pubDate>
+            <sparkle:version>26</sparkle:version>
+            <sparkle:shortVersionString>0.12.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingshot-releases/releases/tag/v0.12.0</link>
+            <description><![CDATA[
+<h2>KhingShot 0.12.0</h2>
+<p>Screen recording controls are now available before and throughout every recording, so you can adjust each source without stopping the take.</p>
+<h4>Control every audio source while recording</h4>
+<ul>
+<li>Choose your microphone in the new pre-record setup panel, then mute, unmute, or switch microphones from the floating recording controls.</li>
+<li>Desktop audio has its own live mute control, independent of the microphone.</li>
+<li>Muting creates silence inside the existing audio track. Switching microphones keeps one continuous recording instead of splitting the take into pieces.</li>
+<li>Live status, device names, mute state, and audio meters stay visible without opening Settings. The controls themselves never appear in the recorded screen.</li>
+</ul>
+<h4>Record the webcam as a synchronized sidecar</h4>
+<ul>
+<li>Turn the camera on or off before recording or during the take, and switch cameras without restarting the screen recording.</li>
+<li>Webcam video is saved as a separate synchronized movie beside the screen recording with a <code>-camera</code> suffix. It is ready to line up with the screen movie in an editor while keeping the camera footage independent.</li>
+<li>The draggable camera preview remains available locally, but it is excluded from the screen recording.</li>
+</ul>
+<h4>Devices can come and go</h4>
+<ul>
+<li>KhingShot refreshes the microphone and camera lists when devices connect or disconnect, falls back visibly when the selected device vanishes, and restores a preferred device when it returns.</li>
+<li>The last selected microphone and camera are remembered across launches.</li>
+<li>Missing devices and denied microphone, camera, or screen permissions now surface a clear message instead of failing silently.</li>
+</ul>
+<p>Requires macOS 14.0 or later.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingshot-releases/releases/download/v0.12.0/KhingShot-0.12.0.dmg"
+                       sparkle:edSignature="HtiXcgxVmy4sjr31oaYAr4WiLpx/RDmmAMS/Xw0UBXtZvWKYV2d46Ixf521CtdwdmOe4qK2fj/np7umDfgsgBw=="
+                       length="5353890"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>0.11.2</title>
             <pubDate>Fri, 14 Aug 2026 17:17:08 +0000</pubDate>
             <sparkle:version>25</sparkle:version>
