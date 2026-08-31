@@ -6,6 +6,28 @@
         <description>Update feed for KhingShot, the macOS capture app.</description>
         <language>en</language>
         <item>
+            <title>0.12.1</title>
+            <pubDate>Mon, 31 Aug 2026 19:10:50 +0000</pubDate>
+            <sparkle:version>27</sparkle:version>
+            <sparkle:shortVersionString>0.12.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingshot-releases/releases/tag/v0.12.1</link>
+            <description><![CDATA[
+<h2>KhingShot 0.12.1</h2>
+<p>One fix, and it matters if you use more than one display: starting a capture no longer risks crashing the app.</p>
+<h4>No more crash when your cursor visits the other monitor mid-capture</h4>
+<ul>
+<li>With the capture overlay open on one display, moving the cursor over a window on your other display could crash KhingShot instantly, taking the capture (and any unsaved state) with it. That is fixed.</li>
+<li>While your cursor is on another display, the overlay now simply waits with the dimmed backdrop. The window highlight and magnifier loupe come back the moment the cursor returns to the display being captured.</li>
+</ul>
+<p>Requires macOS 14.0 or later.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingshot-releases/releases/download/v0.12.1/KhingShot-0.12.1.dmg"
+                       sparkle:edSignature="JwdlaB8jtShVvv0gY6Za4P3Nqhn8PRUbh2xsbZ9Tdd3cLbXfM/GynTfhf3xXc9RWDLoM+1MwzShMs5DafnzuDg=="
+                       length="5353692"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>0.12.0</title>
             <pubDate>Mon, 24 Aug 2026 22:01:45 +0000</pubDate>
             <sparkle:version>26</sparkle:version>
