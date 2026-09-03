@@ -6,6 +6,47 @@
         <description>Update feed for KhingShot, the macOS capture app.</description>
         <language>en</language>
         <item>
+            <title>0.13.0</title>
+            <pubDate>Thu, 03 Sep 2026 21:04:39 +0000</pubDate>
+            <sparkle:version>28</sparkle:version>
+            <sparkle:shortVersionString>0.13.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingshot-releases/releases/tag/v0.13.0</link>
+            <description><![CDATA[
+<h2>KhingShot 0.13.0</h2>
+<p>KhingShot now wears the same dress as Quorum, the rest of KhingSuite's look: a new shell for every window, a full light theme, and menus of its own.</p>
+<h4>A new shell for every window</h4>
+<ul>
+<li>Every window sits on macOS vibrancy with opaque ink cards inset from the edges, a title strip with the crown mark, and one Crown Yellow per screen. All Captures gets a glass sidebar with a capture count, a plus button that starts any capture, search, and a footer for the folder, the theme, and Settings.</li>
+<li>The Images and Videos switch moved into the title strip, next to a sidebar toggle.</li>
+<li>The editor's toolbar is a 44pt header with labeled groups, bordered tool clusters, and compact actions; the zoom pill is an opaque float. Right-clicking the canvas opens the new menu.</li>
+<li>Settings is a page with a nav column: theme cards, sentence-case sections, and a Done button that closes it. The update panel, the setup guide, Ask Claude, and the trim window follow the same layout.</li>
+</ul>
+<h4>Light theme</h4>
+<ul>
+<li>The Appearance setting now reaches every window, not only the editor. Dark is the default; Light and System are a click away in Settings or from the sidebar's theme button.</li>
+<li>The markup canvas and every floating capsule stay dark in both, so what floats over your screen never changes with the theme.</li>
+</ul>
+<h4>Menus, tooltips, and HUDs</h4>
+<ul>
+<li>Right-click menus in the library, on the canvas, and on the About card are KhingShot's own: eyebrow sections, a red destructive item, keyboard navigation, and Escape to close.</li>
+<li>Tooltips follow the theme. The countdown, scrolling-capture, and recording capsules, the toast, and the floating capture's controls share one look, and the recording panel's Start button is red on purpose.</li>
+<li>The capture overlay, the recording frame, and click ripples use Crown Yellow instead of the system accent, and the overlay's readouts are set in Inter.</li>
+</ul>
+<h4>Under the hood</h4>
+<ul>
+<li>One token layer, shared with Quorum value for value, replaces the frosted scrims: semantic colors in two readings, four radii, three motion durations, two shadows.</li>
+<li>Reduce Transparency and Reduce Motion are honored everywhere.</li>
+<li>The debug snapshot harness now captures every branded window in both themes.</li>
+</ul>
+<p>Requires macOS 14.0 or later.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingshot-releases/releases/download/v0.13.0/KhingShot-0.13.0.dmg"
+                       sparkle:edSignature="kUksm/D6iNPeHC2wUrGI7/EPdP2/ZRF0RsP2J5p8VIqH9bk7TEBKi+LBXUF5BD0k76B/kogf1rYc6+fXwbNoAw=="
+                       length="5881695"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>0.12.1</title>
             <pubDate>Mon, 31 Aug 2026 19:10:50 +0000</pubDate>
             <sparkle:version>27</sparkle:version>
