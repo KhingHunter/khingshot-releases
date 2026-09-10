@@ -6,6 +6,34 @@
         <description>Update feed for KhingShot, the macOS capture app.</description>
         <language>en</language>
         <item>
+            <title>0.14.0</title>
+            <pubDate>Thu, 10 Sep 2026 21:17:32 +0000</pubDate>
+            <sparkle:version>29</sparkle:version>
+            <sparkle:shortVersionString>0.14.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingshot-releases/releases/tag/v0.14.0</link>
+            <description><![CDATA[
+<h2>KhingShot 0.14.0</h2>
+<p>Pinned screenshots can now get out of your way without going away.</p>
+<h4>Tuck the stack into the edge</h4>
+<ul>
+<li>A small <strong>pull tab</strong> sits flush against the left edge of the screen, beside the bottom pinned card. Click it and the whole stack slides off into the edge so the corner underneath is yours again. The tab stays put with a Crown Yellow glow and shows how many shots are waiting.</li>
+<li>Click the tab again and the shots slide back into place. Nothing is dismissed, moved, or saved differently in between.</li>
+<li>Tucked shots never auto-dismiss, and a new capture still pops up as usual while the older ones wait in the tab.</li>
+<li>Each screen has its own tab, so a stack pinned to a second display can be tucked on its own.</li>
+</ul>
+<h4>Floating cards</h4>
+<ul>
+<li>A capture that doesn't fill the card floats over a soft translucent tint again, the way it did before 0.13.0, instead of a solid dark surface. The image inside keeps the same rounded corner as the card.</li>
+</ul>
+<p>Requires macOS 14.0 or later.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingshot-releases/releases/download/v0.14.0/KhingShot-0.14.0.dmg"
+                       sparkle:edSignature="IlksYrq7uX2gvIE7IEHsSjU2LXCsdmS5EOO7sOmf24aczoirBtgl8T8tOFBjKkcz6jz0djp1H7vVTUBftUNAAw=="
+                       length="5921614"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>0.13.0</title>
             <pubDate>Thu, 03 Sep 2026 21:04:39 +0000</pubDate>
             <sparkle:version>28</sparkle:version>
