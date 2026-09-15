@@ -6,6 +6,37 @@
         <description>Update feed for KhingShot, the macOS capture app.</description>
         <language>en</language>
         <item>
+            <title>0.15.0</title>
+            <pubDate>Tue, 15 Sep 2026 20:53:28 +0000</pubDate>
+            <sparkle:version>30</sparkle:version>
+            <sparkle:shortVersionString>0.15.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingshot-releases/releases/tag/v0.15.0</link>
+            <description><![CDATA[
+<h2>KhingShot 0.15.0</h2>
+<p>Keep your markup settings consistent and clear floating captures with one click.</p>
+<h4>Markup that remembers your choices</h4>
+<ul>
+<li><strong>Text sizes stay put.</strong> Text and Callout remember separate, exact pixel sizes across images and app restarts. Opening a small screenshot or a tall scrolling capture no longer changes your chosen size.</li>
+<li><strong>Three quick colors in the toolbar.</strong> Switch between red, yellow, and green in one click. Customize the shared trio in either formatting panel, and use the regular color picker whenever you need another color. Each tool remembers its own last-used color.</li>
+<li><strong>Optional text and callout shadows.</strong> Turn Drop shadow on or off for plain text, filled text, and callout bubbles. Each tool remembers its own setting, and shadows stay with your markup when you duplicate, copy, save, or reopen it.</li>
+<li>Both text inspectors now accept sizes from <strong>10 to 300 px</strong>, with direct number entry, size presets, and smaller/larger buttons. Shadow softness now matches between the editor and exported images.</li>
+</ul>
+<h4>Clear floating captures quickly</h4>
+<ul>
+<li><strong>Close All</strong> appears above the edge tab when two or more floating captures are open. Close every preview across all displays, including pinned and tucked captures, while keeping saved files in All Captures.</li>
+<li>Background saves and edits from an already-open editor still finish after the previews close. If a save fails, its preview returns so the capture remains recoverable.</li>
+<li>Floating stacks move together more smoothly when following your cursor between displays. Reduce Motion uses immediate placement and a short fade.</li>
+</ul>
+<p>Existing editable markup remains supported. Earlier versions of KhingShot open markup newly saved by this release as a flattened image.</p>
+<p>Requires macOS 14.0 or later.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingshot-releases/releases/download/v0.15.0/KhingShot-0.15.0.dmg"
+                       sparkle:edSignature="RUao/uY4uNt2YObaJ0XxJDgh0jzrX3FP9/wogV+lNfQXq4kZiat5KRjJU8sicZwI5V/dUysD3Z50whhyTLjXCQ=="
+                       length="6034095"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>0.14.0</title>
             <pubDate>Thu, 10 Sep 2026 21:17:32 +0000</pubDate>
             <sparkle:version>29</sparkle:version>
