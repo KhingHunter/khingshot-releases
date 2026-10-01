@@ -6,6 +6,55 @@
         <description>Update feed for KhingShot, the macOS capture app.</description>
         <language>en</language>
         <item>
+            <title>0.16.0</title>
+            <pubDate>Thu, 01 Oct 2026 21:39:04 +0000</pubDate>
+            <sparkle:version>31</sparkle:version>
+            <sparkle:shortVersionString>0.16.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingshot-releases/releases/tag/v0.16.0</link>
+            <description><![CDATA[
+<h2>KhingShot 0.16.0</h2>
+<p>A whole new look, and a recording editor that works like a real video editor.</p>
+<h4>Obsidian Glass</h4>
+<ul>
+<li><strong>Every window is redesigned.</strong> Frosted glass panels over a deep ink ground, with Crown Yellow on the one button that matters on each screen. All Captures, the markup editor, recording review, Settings, the setup guide, the menu bar panel, floating captures, and notifications all share the new look.</li>
+<li><strong>All Captures</strong> groups your captures by day, shows the text found in each one, and puts Ask Claude right beside it. Mark up an image or trim a recording without leaving the window.</li>
+</ul>
+<h4>A faster markup editor</h4>
+<ul>
+<li><strong>Tools in the title bar.</strong> The tool dock sits on the same line as Copy Text, Ask Claude, Copy, and Done, leaving more room for your image.</li>
+<li><strong>Inspector on the left.</strong> Its header shows the tool, whether you are styling the next mark or a selected one, and a quick switch between related tools (Arrow and Line, Text and Callout, and more). Hide it with ⌥⌘I.</li>
+<li><strong>Copy Text from a selection.</strong> Click Copy Text and drag over the words you want. Copy All Text is still in its menu.</li>
+<li><strong>Crop like Photos.</strong> Once a crop is applied, the canvas shows only what you kept. Choose the crop tool again to see the whole picture and adjust it.</li>
+<li>Quieter, cleaner: header buttons stay out of the way until you point at them, and copying text no longer plays a sound.</li>
+</ul>
+<h4>Review and trim, rebuilt</h4>
+<ul>
+<li><strong>A video editor layout.</strong> Playback controls sit under the picture, and the timeline gets real room. Drag the bar above it to make it taller.</li>
+<li><strong>Edit with the keys you know.</strong> Split with S or ⌘B, delete to the left or right of the playhead with Q and W, and undo anything with ⌘Z.</li>
+<li><strong>Click a clip to select it,</strong> then press Delete to cut it or put it back. Drag split points to adjust them, with snapping to your edits, clicks, and the playhead.</li>
+<li>Zoom in and the timeline follows the playhead. Frames show at your recording's real shape, and audio waveforms now span the whole track.</li>
+</ul>
+<h4>Floating captures and recording</h4>
+<ul>
+<li>New captures pop into the floating stack faster, even right after copying a large screenshot.</li>
+<li>Softer shadows that no longer show a hard edge on light backgrounds.</li>
+<li>The recording timer now starts at zero when recording begins, not when the setup panel opened.</li>
+</ul>
+<h4>Fixes</h4>
+<ul>
+<li>The markup editor resizes normally again, and opens at a size that fits your capture.</li>
+<li>Done and Copy in the editor always respond to clicks.</li>
+<li>Holding Space shows the hand right away when panning a zoomed image.</li>
+</ul>
+<p>Requires macOS 14.0 or later.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingshot-releases/releases/download/v0.16.0/KhingShot-0.16.0.dmg"
+                       sparkle:edSignature="bAIC220q+bLOL66K88CzA1Jg2FFUO8biLXsLsA6UF+foUJAhvojk+gcaTYaOuhMfEWnGHoLrY6XUTZs8CUrIDA=="
+                       length="7993145"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>0.15.0</title>
             <pubDate>Tue, 15 Sep 2026 20:53:28 +0000</pubDate>
             <sparkle:version>30</sparkle:version>
