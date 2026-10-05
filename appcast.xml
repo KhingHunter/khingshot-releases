@@ -6,6 +6,31 @@
         <description>Update feed for KhingShot, the macOS capture app.</description>
         <language>en</language>
         <item>
+            <title>0.16.1</title>
+            <pubDate>Mon, 05 Oct 2026 17:08:26 +0000</pubDate>
+            <sparkle:version>32</sparkle:version>
+            <sparkle:shortVersionString>0.16.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingshot-releases/releases/tag/v0.16.1</link>
+            <description><![CDATA[
+<h2>KhingShot 0.16.1</h2>
+<p>Your voice now comes through wherever you share a recording.</p>
+<h4>Recordings play the same everywhere</h4>
+<ul>
+<li><strong>Microphone and system audio in one track.</strong> Recordings used to keep them on two separate tracks, and Slack, web browsers, and most players outside QuickTime played only the first one, so your voiceover went missing. Every recording now leads with a single track that mixes both.</li>
+<li><strong>MP4 exports</strong> carry that one mixed track.</li>
+<li><strong>Trimming</strong> rebuilds the mix from what you keep. A track you mute in the timeline stays out of the mix.</li>
+<li>The trim view still shows System and Mic as separate tracks, and muting one is heard right away.</li>
+</ul>
+<p>Recordings made before this update still have two tracks. To share one, open it in Review and Trim and export an MP4, or trim it.</p>
+<p>Requires macOS 14.0 or later.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingshot-releases/releases/download/v0.16.1/KhingShot-0.16.1.dmg"
+                       sparkle:edSignature="RM7NsDqdpq5Omacn2Ey0bRXrPfLVS3pjzQJAPspY8s727lZjBpuD38zUXchtS3PrELb/+tRNJZyColblffxMCQ=="
+                       length="8057728"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>0.16.0</title>
             <pubDate>Thu, 01 Oct 2026 21:39:04 +0000</pubDate>
             <sparkle:version>31</sparkle:version>
