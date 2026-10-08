@@ -6,6 +6,41 @@
         <description>Update feed for KhingShot, the macOS capture app.</description>
         <language>en</language>
         <item>
+            <title>0.17.0</title>
+            <pubDate>Thu, 08 Oct 2026 21:45:37 +0000</pubDate>
+            <sparkle:version>33</sparkle:version>
+            <sparkle:shortVersionString>0.17.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingshot-releases/releases/tag/v0.17.0</link>
+            <description><![CDATA[
+<h2>KhingShot 0.17.0</h2>
+<p>Mark up your screen recordings the way you mark up screenshots, and edit them with CapCut's keys.</p>
+<h4>Markup on recordings</h4>
+<ul>
+<li><strong>Draw on a recording.</strong> Review and Trim now has the markup tools: rectangles and ellipses, arrows and lines, pen and highlighter, text, callouts, step numbers, redact, spotlight, and magnifier. Each takes its usual letter with ⌥ (⌥A for an arrow, ⌥T for text). Pause and draw; pressing with a tool while it plays pauses on that frame.</li>
+<li><strong>Time every mark.</strong> Marks sit on their own lanes above the video. Drag a bar's ends to choose when a mark appears and disappears, or move the whole bar. New marks last 3 seconds from the playhead, and fade in and out.</li>
+<li><strong>Redactions that stay put on what they hide.</strong> Turn on <strong>Follow the content</strong> and a blur moves with the field it covers as the page scrolls. If it loses track, KhingShot tells you and asks before exporting.</li>
+<li><strong>Exports include the markup.</strong> MP4, GIF, and timelapse exports draw your marks in. Trim still trims without re-encoding, and your marks stay editable.</li>
+<li><strong>Sharing sends the marked-up version.</strong> Dragging a recording out of All Captures, Copy File, and Share now send a copy with the markup drawn in, so a redacted recording never goes out uncovered. You can turn this off in Settings → Recording (redacted recordings always get the copy).</li>
+</ul>
+<h4>CapCut's keys in Review and Trim</h4>
+<ul>
+<li><strong>J, K, L</strong> play backward, stop, and play forward. <strong>I</strong> and <strong>O</strong> set the in and out points. <strong>⌘B</strong> splits at the playhead, and <strong>B</strong> turns on split mode, where every click on a clip cuts it.</li>
+<li><strong>Q</strong> and <strong>W</strong> still delete left or right of the playhead. <strong>N</strong> turns snapping on or off and <strong>⇧Z</strong> fits the timeline.</li>
+<li><strong>S</strong> no longer splits; use <strong>⌘B</strong>. Press <strong>?</strong> for the full list. The screenshot editor keeps its keys.</li>
+</ul>
+<h4>Fixes</h4>
+<ul>
+<li>Pixelate redactions near the top or right edge of a screenshot now cover every row.</li>
+</ul>
+<p>Requires macOS 14.0 or later.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingshot-releases/releases/download/v0.17.0/KhingShot-0.17.0.dmg"
+                       sparkle:edSignature="UstcYK1CiYjMtgJ6aiawLWTd9l2atv5TVMJcoE1LgsBc5DNEa/Y1kDo7fdEh7mRRa6vWmUyUMz9Po1kpLEa2Cg=="
+                       length="9173348"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>0.16.1</title>
             <pubDate>Mon, 05 Oct 2026 17:08:26 +0000</pubDate>
             <sparkle:version>32</sparkle:version>
