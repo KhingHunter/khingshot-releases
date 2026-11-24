@@ -6,6 +6,31 @@
         <description>Update feed for KhingShot, the macOS capture app.</description>
         <language>en</language>
         <item>
+            <title>0.18.0</title>
+            <pubDate>Tue, 24 Nov 2026 18:00:33 +0000</pubDate>
+            <sparkle:version>34</sparkle:version>
+            <sparkle:shortVersionString>0.18.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <link>https://github.com/KhingHunter/khingshot-releases/releases/tag/v0.18.0</link>
+            <description><![CDATA[
+<h2>KhingShot 0.18.0</h2>
+<p>Choose the sound KhingShot makes when you take a screenshot, or use your own.</p>
+<h4>Capture sounds</h4>
+<ul>
+<li><strong>Pick a sound.</strong> Settings → Capture → Capture sound has the macOS shutter, Giggity, and every macOS alert sound. Picking one plays it, and the play button plays it again.</li>
+<li><strong>Use your own.</strong> Click <strong>Add sound…</strong> or drop audio files on the section. MP3, M4A, WAV, AIFF, and CAF files up to 10 seconds work. KhingShot keeps its own copy, so you can move or delete the original. Play or remove any sound you added from the list.</li>
+<li><strong>None</strong> keeps screenshots silent and leaves the recording start and stop sounds on. The <strong>Play capture sound</strong> switch still turns all of them off.</li>
+</ul>
+<h4>If you're updating</h4>
+<p>Screenshots in earlier versions never actually made a sound, so updating keeps them silent: your sound starts on <strong>None</strong>. Pick one in Settings → Capture to hear it. New installs start on the shutter.</p>
+<p>Requires macOS 14.0 or later.</p>
+            ]]></description>
+            <enclosure url="https://github.com/KhingHunter/khingshot-releases/releases/download/v0.18.0/KhingShot-0.18.0.dmg"
+                       sparkle:edSignature="imhkzNFF3AkaUXRQs8yx/oJN7CKMH8Fnqu7+Il3wAbSJxRnq1dN6WQFu5SXoZ+rF5Al3dsk+Uk5320gtsUtDAg=="
+                       length="9324269"
+                       type="application/octet-stream"/>
+        </item>
+        <item>
             <title>0.17.0</title>
             <pubDate>Thu, 08 Oct 2026 21:45:37 +0000</pubDate>
             <sparkle:version>33</sparkle:version>
